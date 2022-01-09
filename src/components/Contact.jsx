@@ -16,7 +16,6 @@ const Contact = () => {
 			</div>
 		</div>
 	</div>
-
 	<div className="contact py-sm-5 py-4">
 		<div className="container py-xl-4 py-lg-2">
 			<h3 className="tittle-w3l text-center mb-lg-5 mb-sm-4 mb-3">

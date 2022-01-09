@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Home = () => {
   return (
     <>
@@ -30,9 +32,9 @@ const Home = () => {
                     <span>Big</span>
                     Sale
                   </h3>
-                  <a class="button2" href="product.html">
+                  <Link class="button2" to="product.html">
                     Shop Now{" "}
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -49,9 +51,9 @@ const Home = () => {
                     Best
                     <span>Headphone</span>
                   </h3>
-                  <a class="button2" href="product.html">
+                  <Link class="button2" to="product.html">
                     Shop Now{" "}
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -68,9 +70,9 @@ const Home = () => {
                     New
                     <span>Standard</span>
                   </h3>
-                  <a class="button2" href="product.html">
+                  <Link class="button2" to="product.html">
                     Shop Now{" "}
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -87,34 +89,33 @@ const Home = () => {
                     Today
                     <span>Discount</span>
                   </h3>
-                  <a class="button2" href="product.html">
+                  <Link class="button2" to="product.html">
                     Shop Now{" "}
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <a
+        <Link
           class="carousel-control-prev"
-          href="#carouselExampleIndicators"
+          to="#carouselExampleIndicators"
           role="button"
           data-slide="prev"
         >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
-        </a>
-        <a
+        </Link>
+        <Link
           class="carousel-control-next"
-          href="#carouselExampleIndicators"
+          to="#carouselExampleIndicators"
           role="button"
           data-slide="next"
         >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
-        </a>
+        </Link>
       </div>
-
       <div class="ads-grid py-sm-5 py-4">
         <div class="container py-xl-4 py-lg-2">
           <h3 class="tittle-w3l text-center mb-lg-5 mb-sm-4 mb-3">
@@ -136,18 +137,18 @@ const Home = () => {
                           <img src="/assets/images/m1.jpg" alt="" />
                           <div class="men-cart-pro">
                             <div class="inner-men-cart-pro">
-                              <a
-                                href="single.html"
+                              <Link
+                                to="/single"
                                 class="link-product-add-cart"
                               >
                                 Quick View
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
                         <div class="item-info-product text-center border-top mt-4">
                           <h4 class="pt-1">
-                            <a href="single.html">Samsung Galaxy J7</a>
+                            <Link to="/single">Samsung Galaxy J7</Link>
                           </h4>
                           <div class="info-product-price my-2">
                             <span class="item_price">$200.00</span>
@@ -207,19 +208,19 @@ const Home = () => {
                           <img src="/assets/images/m2.jpg" alt="" />
                           <div class="men-cart-pro">
                             <div class="inner-men-cart-pro">
-                              <a
-                                href="single.html"
+                              <Link
+                                to="/single"
                                 class="link-product-add-cart"
                               >
                                 Quick View
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <span class="product-new-top">New</span>
                         </div>
                         <div class="item-info-product text-center border-top mt-4">
                           <h4 class="pt-1">
-                            <a href="single.html">OPPO A37f</a>
+                            <Link to="/single">OPPO A37f</Link>
                           </h4>
                           <div class="info-product-price my-2">
                             <span class="item_price">$230.00</span>
@@ -279,19 +280,19 @@ const Home = () => {
                           <img src="/assets/images/m3.jpg" alt="" />
                           <div class="men-cart-pro">
                             <div class="inner-men-cart-pro">
-                              <a
-                                href="single.html"
+                              <Link
+                                to="/single"
                                 class="link-product-add-cart"
                               >
                                 Quick View
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <span class="product-new-top">New</span>
                         </div>
                         <div class="item-info-product text-center border-top mt-4">
                           <h4 class="pt-1">
-                            <a href="single.html">Apple iPhone X</a>
+                            <Link to="/single">Apple iPhone X</Link>
                           </h4>
                           <div class="info-product-price my-2">
                             <span class="item_price">$280.00</span>
@@ -347,7 +348,6 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-
                 <div class="product-sec1 px-sm-4 px-3 py-sm-5  py-3 mb-4">
                   <h3 class="heading-tittle text-center font-italic">
                     Tv & Audio
@@ -359,18 +359,18 @@ const Home = () => {
                           <img src="/assets/images/m4.jpg" alt="" />
                           <div class="men-cart-pro">
                             <div class="inner-men-cart-pro">
-                              <a
-                                href="single.html"
+                              <Link
+                                to="/single"
                                 class="link-product-add-cart"
                               >
                                 Quick View
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
                         <div class="item-info-product text-center border-top mt-4">
                           <h4 class="pt-1">
-                            <a href="single.html">Sony 80 cm (32 inches)</a>
+                            <Link to="/single">Sony 80 cm (32 inches)</Link>
                           </h4>
                           <div class="info-product-price my-2">
                             <span class="item_price">$320.00</span>
@@ -430,19 +430,19 @@ const Home = () => {
                           <img src="/assets/images/m5.jpg" alt="" />
                           <div class="men-cart-pro">
                             <div class="inner-men-cart-pro">
-                              <a
-                                href="single.html"
+                              <Link
+                                to="/single"
                                 class="link-product-add-cart"
                               >
                                 Quick View
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <span class="product-new-top">New</span>
                         </div>
                         <div class="item-info-product text-center border-top mt-4">
                           <h4 class="pt-1">
-                            <a href="single.html">Artis Speaker</a>
+                            <Link to="/single">Artis Speaker</Link>
                           </h4>
                           <div class="info-product-price my-2">
                             <span class="item_price">$349.00</span>
@@ -502,18 +502,18 @@ const Home = () => {
                           <img src="/assets/images/m6.jpg" alt="" />
                           <div class="men-cart-pro">
                             <div class="inner-men-cart-pro">
-                              <a
-                                href="single.html"
+                              <Link
+                                to="/single"
                                 class="link-product-add-cart"
                               >
                                 Quick View
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
                         <div class="item-info-product text-center border-top mt-4">
                           <h4 class="pt-1">
-                            <a href="single.html">Philips Speakers</a>
+                            <Link to="/single">Philips Speakers</Link>
                           </h4>
                           <div class="info-product-price my-2">
                             <span class="item_price">$249.00</span>
@@ -569,7 +569,6 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-
                 <div class="product-sec1 product-sec2 px-sm-5 px-3">
                   <div class="row">
                     <h3 class="col-md-4 effect-bg">Summer Carnival</h3>
@@ -579,7 +578,6 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-
                 <div class="product-sec1 px-sm-4 px-3 py-sm-5  py-3 mt-4">
                   <h3 class="heading-tittle text-center font-italic">
                     Large Appliances
@@ -591,19 +589,19 @@ const Home = () => {
                           <img src="/assets/images/m7.jpg" alt="" />
                           <div class="men-cart-pro">
                             <div class="inner-men-cart-pro">
-                              <a
-                                href="single.html"
+                              <Link
+                                to="/single"
                                 class="link-product-add-cart"
                               >
                                 Quick View
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
                         <span class="product-new-top">New</span>
                         <div class="item-info-product text-center border-top mt-4">
                           <h4 class="pt-1">
-                            <a href="single.html">Whirlpool 245</a>
+                            <Link to="/single">Whirlpool 245</Link>
                           </h4>
                           <div class="info-product-price my-2">
                             <span class="item_price">$230.00</span>
@@ -663,18 +661,18 @@ const Home = () => {
                           <img src="/assets/images/m8.jpg" alt="" />
                           <div class="men-cart-pro">
                             <div class="inner-men-cart-pro">
-                              <a
-                                href="single.html"
+                              <Link
+                                to="/single"
                                 class="link-product-add-cart"
                               >
                                 Quick View
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
                         <div class="item-info-product text-center border-top mt-4">
                           <h4 class="pt-1">
-                            <a href="single.html">BPL Washing Machine</a>
+                            <Link to="/single">BPL Washing Machine</Link>
                           </h4>
                           <div class="info-product-price my-2">
                             <span class="item_price">$180.00</span>
@@ -734,18 +732,18 @@ const Home = () => {
                           <img src="/assets/images/m9.jpg" alt="" />
                           <div class="men-cart-pro">
                             <div class="inner-men-cart-pro">
-                              <a
-                                href="single.html"
+                              <Link
+                                to="/single"
                                 class="link-product-add-cart"
                               >
                                 Quick View
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
                         <div class="item-info-product text-center border-top mt-4">
                           <h4 class="pt-1">
-                            <a href="single.html">Microwave Oven</a>
+                            <Link to="/single">Microwave Oven</Link>
                           </h4>
                           <div class="info-product-price my-2">
                             <span class="item_price">$199.00</span>
@@ -803,7 +801,6 @@ const Home = () => {
                 </div>
               </div>
             </div>
-
             <div class="col-lg-3 mt-lg-0 mt-4 p-lg-0">
               <div class="side-bar p-sm-4 p-3">
                 <div class="search-hotel border-bottom py-2">
@@ -823,27 +820,26 @@ const Home = () => {
                   <div class="w3l-range">
                     <ul>
                       <li>
-                        <a href="#">Under $1,000</a>
+                        <Link to="#">Under $1,000</Link>
                       </li>
                       <li class="my-1">
-                        <a href="#">$1,000 - $5,000</a>
+                        <Link to="#">$1,000 - $5,000</Link>
                       </li>
                       <li>
-                        <a href="#">$5,000 - $10,000</a>
+                        <Link to="#">$5,000 - $10,000</Link>
                       </li>
                       <li class="my-1">
-                        <a href="#">$10,000 - $20,000</a>
+                        <Link to="#">$10,000 - $20,000</Link>
                       </li>
                       <li>
-                        <a href="#">$20,000 $30,000</a>
+                        <Link to="#">$20,000 $30,000</Link>
                       </li>
                       <li class="mt-1">
-                        <a href="#">Over $30,000</a>
+                        <Link to="#">Over $30,000</Link>
                       </li>
                     </ul>
                   </div>
                 </div>
-
                 <div class="left-side border-bottom py-2">
                   <h3 class="agileits-sear-head mb-3">Discount</h3>
                   <ul>
@@ -873,57 +869,55 @@ const Home = () => {
                     </li>
                   </ul>
                 </div>
-
                 <div class="customer-rev border-bottom left-side py-2">
                   <h3 class="agileits-sear-head mb-3">Customer Review</h3>
                   <ul>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <span>5.0</span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <span>4.0</span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half"></i>
                         <span>3.5</span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <span>3.0</span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="#">
+                      <Link to="#">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half"></i>
                         <span>2.5</span>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
-
                 <div class="left-side border-bottom py-2">
                   <h3 class="agileits-sear-head mb-3">Electronics</h3>
                   <ul>
@@ -981,7 +975,6 @@ const Home = () => {
                     </li>
                   </ul>
                 </div>
-
                 <div class="left-side border-bottom py-2">
                   <h3 class="agileits-sear-head mb-3">Cash On Delivery</h3>
                   <ul>
@@ -991,7 +984,6 @@ const Home = () => {
                     </li>
                   </ul>
                 </div>
-
                 <div class="left-side border-bottom py-2">
                   <h3 class="agileits-sear-head mb-3">New Arrivals</h3>
                   <ul>
@@ -1005,7 +997,6 @@ const Home = () => {
                     </li>
                   </ul>
                 </div>
-
                 <div class="f-grid py-2">
                   <h3 class="agileits-sear-head mb-3">Best Seller</h3>
                   <div class="box-scroll">
@@ -1015,13 +1006,13 @@ const Home = () => {
                           <img src="/assets/images/k1.jpg" alt="" class="img-fluid" />
                         </div>
                         <div class="col-lg-9 col-sm-10 col-9 w3_mvd">
-                          <a href="">
+                          <Link to="">
                             Samsung Galaxy On7 Prime (Gold, 4GB RAM + 64GB
                             Memory)
-                          </a>
-                          <a href="" class="price-mar mt-2">
+                          </Link>
+                          <Link to="" class="price-mar mt-2">
                             $12,990.00
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div class="row my-4">
@@ -1029,13 +1020,13 @@ const Home = () => {
                           <img src="/assets/images/k2.jpg" alt="" class="img-fluid" />
                         </div>
                         <div class="col-lg-9 col-sm-10 col-9 w3_mvd">
-                          <a href="">
+                          <Link to="">
                             Haier 195 L 4 Star Direct-Cool Single Door
                             Refrigerator
-                          </a>
-                          <a href="" class="price-mar mt-2">
+                          </Link>
+                          <Link to="" class="price-mar mt-2">
                             $12,499.00
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div class="row">
@@ -1043,12 +1034,12 @@ const Home = () => {
                           <img src="/assets/images/k3.jpg" alt="" class="img-fluid" />
                         </div>
                         <div class="col-lg-9 col-sm-10 col-9 w3_mvd">
-                          <a href="">
+                          <Link to="">
                             Ambrane 13000 mAh Power Bank (P-1310 Premium)
-                          </a>
-                          <a href="" class="price-mar mt-2">
+                          </Link>
+                          <Link to="" class="price-mar mt-2">
                             $1,199.00{" "}
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -1059,7 +1050,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-
       <div class="join-w3l1 py-sm-5 py-4">
         <div class="container py-xl-4 py-lg-2">
           <div class="row">

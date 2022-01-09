@@ -44,7 +44,6 @@ const About = () => {
           </div>
         </div>
       </div>
-
       <div className="testimonials py-sm-5 py-4">
         <div className="container py-xl-4 py-lg-2">
           <h3 className="tittle-w3l text-center text-white mb-lg-5 mb-sm-4 mb-3">
