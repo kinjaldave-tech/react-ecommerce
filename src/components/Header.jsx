@@ -616,7 +616,6 @@ const Header = () => {
               </div>
             </div>
           </div>
-
           <div className="header-bot">
             <div className="container">
               <div className="row header-bot_inner_wthreeinfo_header_mid">
@@ -635,7 +634,6 @@ const Header = () => {
                     </NavLink>
                   </h1>
                 </div>
-
                 <div className="col-md-9 header mt-4 mb-md-0 mb-4">
                   <div className="row">
                     <div className="col-10 agileits_search">
@@ -745,45 +743,45 @@ const Header = () => {
                             <div className="col-sm-6 multi-gd-img">
                               <ul className="multi-column-dropdown">
                                 <li>
-                                  <NavLink to="product.html">
+                                  <NavLink to="/product">
                                     All Mobile Phones
                                   </NavLink>
                                 </li>
                                 <li>
-                                  <NavLink to="product.html">
+                                  <NavLink to="/product">
                                     All Mobile Accessories
                                   </NavLink>
                                 </li>
                                 <li>
-                                  <NavLink to="product.html">
+                                  <NavLink to="/product">
                                     Cases & Covers
                                   </NavLink>
                                 </li>
                                 <li>
-                                  <NavLink to="product.html">
+                                  <NavLink to="/product">
                                     Screen Protectors
                                   </NavLink>
                                 </li>
                                 <li>
-                                  <NavLink to="product.html">
+                                  <NavLink to="/product">
                                     Power Banks
                                   </NavLink>
                                 </li>
                                 <li>
-                                  <NavLink to="product.html">
+                                  <NavLink to="/product">
                                     All Certified Refurbished
                                   </NavLink>
                                 </li>
                                 <li>
-                                  <NavLink to="product.html">Tablets</NavLink>
+                                  <NavLink to="/product">Tablets</NavLink>
                                 </li>
                                 <li>
-                                  <NavLink to="product.html">
+                                  <NavLink to="/product">
                                     Wearable Devices
                                   </NavLink>
                                 </li>
                                 <li>
-                                  <NavLink to="product.html">
+                                  <NavLink to="/product">
                                     Smart Home
                                   </NavLink>
                                 </li>
@@ -792,33 +790,33 @@ const Header = () => {
                             <div className="col-sm-6 multi-gd-img">
                               <ul className="multi-column-dropdown">
                                 <li>
-                                  <NavLink to="product.html">Laptops</NavLink>
+                                  <NavLink to="/product">Laptops</NavLink>
                                 </li>
                                 <li>
-                                  <NavLink to="product.html">
+                                  <NavLink to="/product">
                                     Drives & Storage
                                   </NavLink>
                                 </li>
                                 <li>
-                                  <NavLink to="product.html">
+                                  <NavLink to="/product">
                                     Printers & Ink
                                   </NavLink>
                                 </li>
                                 <li>
-                                  <NavLink to="product.html">
+                                  <NavLink to="/product">
                                     Networking Devices
                                   </NavLink>
                                 </li>
                                 <li>
-                                  <NavLink to="product.html">
+                                  <NavLink to="/product">
                                     Computer Accessories
                                   </NavLink>
                                 </li>
                                 <li>
-                                  <NavLink to="product.html">Game Zone</NavLink>
+                                  <NavLink to="/product">Game Zone</NavLink>
                                 </li>
                                 <li>
-                                  <NavLink to="product.html">Software</NavLink>
+                                  <NavLink to="/product">Software</NavLink>
                                 </li>
                               </ul>
                             </div>
@@ -945,7 +943,7 @@ const Header = () => {
                       </NavLink>
                     </li>
                     <li className="nav-item mr-lg-2 mb-lg-0 mb-2">
-                      <NavLink className="nav-link" to="product.html">
+                      <NavLink className="nav-link" to="/product">
                         New Arrivals
                       </NavLink>
                     </li>
@@ -961,14 +959,14 @@ const Header = () => {
                         Pages
                       </NavLink>
                       <div className="dropdown-menu">
-                        <NavLink className="dropdown-item" to="product.html">
+                        <NavLink className="dropdown-item" to="/product">
                           Product 1
                         </NavLink>
                         <NavLink className="dropdown-item" to="product2.html">
                           Product 2
                         </NavLink>
                         <div className="dropdown-divider"></div>
-                        <NavLink className="dropdown-item" to="single.html">
+                        <NavLink className="dropdown-item" to="/single">
                           Single Product 1
                         </NavLink>
                         <NavLink className="dropdown-item" to="single2.html">
@@ -978,7 +976,7 @@ const Header = () => {
                         <NavLink className="dropdown-item" to="checkout.html">
                           Checkout Page
                         </NavLink>
-                        <NavLink className="dropdown-item" to="payment.html">
+                        <NavLink className="dropdown-item" to="/payment">
                           Payment Page
                         </NavLink>
                       </div>

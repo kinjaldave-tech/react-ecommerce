@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Product = () => {
     return(
 <>
@@ -8,7 +10,7 @@ const Product = () => {
 			<div className="container">
 				<ul className="w3_short">
 					<li>
-						<a href="index.html">Home</a>
+						<Link to="/">Home</Link>
 						<i>|</i>
 					</li>
 					<li>Electronics</li>
@@ -34,13 +36,13 @@ const Product = () => {
 											<img src="assets/images/m1.jpg" alt=""/>
 											<div className="men-cart-pro">
 												<div className="inner-men-cart-pro">
-													<a href="single.html" className="link-product-add-cart">Quick View</a>
+													<Link to="/single" className="link-product-add-cart">Quick View</Link>
 												</div>
 											</div>
 										</div>
 										<div className="item-info-product text-center border-top mt-4">
 											<h4 className="pt-1">
-												<a href="single.html">Samsung Galaxy J7</a>
+												<Link to="/single">Samsung Galaxy J7</Link>
 											</h4>
 											<div className="info-product-price my-2">
 												<span className="item_price">$200.00</span>
@@ -71,14 +73,14 @@ const Product = () => {
 											<img src="assets/images/m2.jpg" alt=""/>
 											<div className="men-cart-pro">
 												<div className="inner-men-cart-pro">
-													<a href="single.html" className="link-product-add-cart">Quick View</a>
+													<Link to="/single" className="link-product-add-cart">Quick View</Link>
 												</div>
 											</div>
 											<span className="product-new-top">New</span>
 										</div>
 										<div className="item-info-product text-center border-top mt-4">
 											<h4 className="pt-1">
-												<a href="single.html">OPPO A37f</a>
+												<Link to="/single">OPPO A37f</Link>
 											</h4>
 											<div className="info-product-price my-2">
 												<span className="item_price">$230.00</span>
@@ -109,14 +111,14 @@ const Product = () => {
 											<img src="assets/images/m3.jpg" alt=""/>
 											<div className="men-cart-pro">
 												<div className="inner-men-cart-pro">
-													<a href="single.html" className="link-product-add-cart">Quick View</a>
+													<Link to="/single" className="link-product-add-cart">Quick View</Link>
 												</div>
 											</div>
 											<span className="product-new-top">New</span>
 										</div>
 										<div className="item-info-product text-center border-top mt-4">
 											<h4 className="pt-1">
-												<a href="single.html">Apple iPhone X</a>
+												<Link to="/single">Apple iPhone X</Link>
 											</h4>
 											<div className="info-product-price my-2">
 												<span className="item_price">$280.00</span>
@@ -151,13 +153,13 @@ const Product = () => {
 											<img src="assets/images/mk1.jpg" alt=""/>
 											<div className="men-cart-pro">
 												<div className="inner-men-cart-pro">
-													<a href="single.html" className="link-product-add-cart">Quick View</a>
+													<Link to="/single" className="link-product-add-cart">Quick View</Link>
 												</div>
 											</div>
 										</div>
 										<div className="item-info-product text-center border-top mt-4">
 											<h4 className="pt-1">
-												<a href="single.html">Infinix Hot S3</a>
+												<Link to="/single">Infinix Hot S3</Link>
 											</h4>
 											<div className="info-product-price my-2">
 												<span className="item_price">$300.00</span>
@@ -189,13 +191,13 @@ const Product = () => {
 											<img src="assets/images/mk2.jpg" alt=""/>
 											<div className="men-cart-pro">
 												<div className="inner-men-cart-pro">
-													<a href="single.html" className="link-product-add-cart">Quick View</a>
+													<Link to="/single" className="link-product-add-cart">Quick View</Link>
 												</div>
 											</div>
 										</div>
 										<div className="item-info-product text-center border-top mt-4">
 											<h4 className="pt-1">
-												<a href="single.html">Moto X4 (6 GB)</a>
+												<Link to="/single">Moto X4 (6 GB)</Link>
 											</h4>
 											<div className="info-product-price my-2">
 												<span className="item_price">$233.00</span>
@@ -226,13 +228,13 @@ const Product = () => {
 											<img src="assets/images/mk3.jpg" alt=""/>
 											<div className="men-cart-pro">
 												<div className="inner-men-cart-pro">
-													<a href="single.html" className="link-product-add-cart">Quick View</a>
+													<Link to="/single" className="link-product-add-cart">Quick View</Link>
 												</div>
 											</div>
 										</div>
 										<div className="item-info-product text-center border-top mt-4">
 											<h4 className="pt-1">
-												<a href="single.html">iVooMi i Series</a>
+												<Link to="/single">iVooMi i Series</Link>
 											</h4>
 											<div className="info-product-price my-2">
 												<span className="item_price">$249.00</span>
@@ -268,13 +270,13 @@ const Product = () => {
 											<img src="assets/images/mk4.jpg" alt="" className="img-fluid"/>
 											<div className="men-cart-pro">
 												<div className="inner-men-cart-pro">
-													<a href="single.html" className="link-product-add-cart">Quick View</a>
+													<Link to="/single" className="link-product-add-cart">Quick View</Link>
 												</div>
 											</div>
 										</div>
 										<div className="item-info-product text-center border-top mt-4">
 											<h4 className="pt-1">
-												<a href="single.html">Dell Vostro Laptop</a>
+												<Link to="/single">Dell Vostro Laptop</Link>
 											</h4>
 											<div className="info-product-price my-2">
 												<span className="item_price">$252.00</span>
@@ -305,13 +307,13 @@ const Product = () => {
 											<img src="assets/images/mk5.jpg" alt="" className="img-fluid"/>
 											<div className="men-cart-pro">
 												<div className="inner-men-cart-pro">
-													<a href="single.html" className="link-product-add-cart">Quick View</a>
+													<Link to="/single" className="link-product-add-cart">Quick View</Link>
 												</div>
 											</div>
 										</div>
 										<div className="item-info-product text-center border-top mt-4">
 											<h4 className="pt-1">
-												<a href="single.html">Acer Laptop</a>
+												<Link to="/single">Acer Laptop</Link>
 											</h4>
 											<div className="info-product-price my-2">
 												<span className="item_price">$240.00</span>
@@ -342,13 +344,13 @@ const Product = () => {
 											<img src="assets/images/mk6.jpg" alt="" className="img-fluid"/>
 											<div className="men-cart-pro">
 												<div className="inner-men-cart-pro">
-													<a href="single.html" className="link-product-add-cart">Quick View</a>
+													<Link to="/single" className="link-product-add-cart">Quick View</Link>
 												</div>
 											</div>
 										</div>
 										<div className="item-info-product text-center border-top mt-4">
 											<h4 className="pt-1">
-												<a href="single.html">Lenovo </a>
+												<Link to="/single">Lenovo </Link>
 											</h4>
 											<div className="info-product-price my-2">
 												<span className="item_price">$300.00</span>
@@ -383,14 +385,14 @@ const Product = () => {
 											<img src="assets/images/mk7.jpg" alt="" className="img-fluid"/>
 											<div className="men-cart-pro">
 												<div className="inner-men-cart-pro">
-													<a href="single.html" className="link-product-add-cart">Quick View</a>
+													<Link to="/single" className="link-product-add-cart">Quick View</Link>
 												</div>
 											</div>
 										</div>
 										<span className="product-new-top">New</span>
 										<div className="item-info-product text-center border-top mt-4">
 											<h4 className="pt-1">
-												<a href="single.html">Intex Power Bank</a>
+												<Link to="/single">Intex Power Bank</Link>
 											</h4>
 											<div className="info-product-price my-2">
 												<span className="item_price">$100.00</span>
@@ -421,14 +423,14 @@ const Product = () => {
 											<img src="assets/images/mk8.jpg" alt="" className="img-fluid"/>
 											<div className="men-cart-pro">
 												<div className="inner-men-cart-pro">
-													<a href="single.html" className="link-product-add-cart">Quick View</a>
+													<Link to="/single" className="link-product-add-cart">Quick View</Link>
 												</div>
 											</div>
 										</div>
 										<span className="product-new-top">New</span>
 										<div className="item-info-product text-center border-top mt-4">
 											<h4 className="pt-1">
-												<a href="single.html">HP Wireless Printer</a>
+												<Link to="/single">HP Wireless Printer</Link>
 											</h4>
 											<div className="info-product-price my-2">
 												<span className="item_price">$243.00</span>
@@ -459,13 +461,13 @@ const Product = () => {
 											<img src="assets/images/mk9.jpg" alt="" className="img-fluid"/>
 											<div className="men-cart-pro">
 												<div className="inner-men-cart-pro">
-													<a href="single.html" className="link-product-add-cart">Quick View</a>
+													<Link to="/single" className="link-product-add-cart">Quick View</Link>
 												</div>
 											</div>
 										</div>
 										<div className="item-info-product text-center border-top mt-4">
 											<h4 className="pt-1">
-												<a href="single.html">Alcatel Tablet</a>
+												<Link to="/single">Alcatel Tablet</Link>
 											</h4>
 											<div className="info-product-price my-2">
 												<span className="item_price">$320.00</span>
@@ -593,22 +595,22 @@ const Product = () => {
 							<div className="w3l-range">
 								<ul>
 									<li>
-										<a href="#">Under $1,000</a>
+										<Link to="#">Under $1,000</Link>
 									</li>
 									<li className="my-1">
-										<a href="#">$1,000 - $5,000</a>
+										<Link to="#">$1,000 - $5,000</Link>
 									</li>
 									<li>
-										<a href="#">$5,000 - $10,000</a>
+										<Link to="#">$5,000 - $10,000</Link>
 									</li>
 									<li className="my-1">
-										<a href="#">$10,000 - $20,000</a>
+										<Link to="#">$10,000 - $20,000</Link>
 									</li>
 									<li>
-										<a href="#">$20,000 $30,000</a>
+										<Link to="#">$20,000 $30,000</Link>
 									</li>
 									<li className="mt-1">
-										<a href="#">Over $30,000</a>
+										<Link to="#">Over $30,000</Link>
 									</li>
 								</ul>
 							</div>
@@ -732,3 +734,5 @@ const Product = () => {
 </>
     );
 }
+
+export default Product;
