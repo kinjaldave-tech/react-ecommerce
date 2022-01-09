@@ -842,43 +842,43 @@ const Header = () => {
                             <div className="col-sm-6 multi-gd-img">
                               <ul className="multi-column-dropdown">
                                 <li>
-                                  <NavLink to="product2.html">
+                                  <NavLink to="/product2">
                                     Televisions
                                   </NavLink>
                                 </li>
                                 <li>
-                                  <NavLink to="product2.html">
+                                  <NavLink to="/product2">
                                     Home Entertainment Systems
                                   </NavLink>
                                 </li>
                                 <li>
-                                  <NavLink to="product2.html">
+                                  <NavLink to="/product2">
                                     Headphones
                                   </NavLink>
                                 </li>
                                 <li>
-                                  <NavLink to="product2.html">Speakers</NavLink>
+                                  <NavLink to="/product2">Speakers</NavLink>
                                 </li>
                                 <li>
-                                  <NavLink to="product2.html">
+                                  <NavLink to="/product2">
                                     MP3, Media Players & Accessories
                                   </NavLink>
                                 </li>
                                 <li>
-                                  <NavLink to="product2.html">
+                                  <NavLink to="/product2">
                                     Audio & Video Accessories
                                   </NavLink>
                                 </li>
                                 <li>
-                                  <NavLink to="product2.html">Cameras</NavLink>
+                                  <NavLink to="/product2">Cameras</NavLink>
                                 </li>
                                 <li>
-                                  <NavLink to="product2.html">
+                                  <NavLink to="/product2">
                                     DSLR Cameras
                                   </NavLink>
                                 </li>
                                 <li>
-                                  <NavLink to="product2.html">
+                                  <NavLink to="/product2">
                                     Camera Accessories
                                   </NavLink>
                                 </li>
@@ -887,47 +887,47 @@ const Header = () => {
                             <div className="col-sm-6 multi-gd-img">
                               <ul className="multi-column-dropdown">
                                 <li>
-                                  <NavLink to="product2.html">
+                                  <NavLink to="/product2">
                                     Musical Instruments
                                   </NavLink>
                                 </li>
                                 <li>
-                                  <NavLink to="product2.html">
+                                  <NavLink to="/product2">
                                     Gaming Consoles
                                   </NavLink>
                                 </li>
                                 <li>
-                                  <NavLink to="product2.html">
+                                  <NavLink to="/product2">
                                     All Electronics
                                   </NavLink>
                                 </li>
                                 <li>
-                                  <NavLink to="product2.html">
+                                  <NavLink to="/product2">
                                     Air Conditioners
                                   </NavLink>
                                 </li>
                                 <li>
-                                  <NavLink to="product2.html">
+                                  <NavLink to="/product2">
                                     Refrigerators
                                   </NavLink>
                                 </li>
                                 <li>
-                                  <NavLink to="product2.html">
+                                  <NavLink to="/product2">
                                     Washing Machines
                                   </NavLink>
                                 </li>
                                 <li>
-                                  <NavLink to="product2.html">
+                                  <NavLink to="/product2">
                                     Kitchen & Home Appliances
                                   </NavLink>
                                 </li>
                                 <li>
-                                  <NavLink to="product2.html">
+                                  <NavLink to="/product2">
                                     Heating & Cooling Appliances
                                   </NavLink>
                                 </li>
                                 <li>
-                                  <NavLink to="product2.html">
+                                  <NavLink to="/product2">
                                     All Appliances
                                   </NavLink>
                                 </li>
@@ -962,7 +962,7 @@ const Header = () => {
                         <NavLink className="dropdown-item" to="/product">
                           Product 1
                         </NavLink>
-                        <NavLink className="dropdown-item" to="product2.html">
+                        <NavLink className="dropdown-item" to="/product2">
                           Product 2
                         </NavLink>
                         <div className="dropdown-divider"></div>

@@ -72,13 +72,13 @@ const Footer = () => {
                     <NavLink to="product.html">TV, Audio</NavLink>
                   </li>
                   <li className="mb-3">
-                    <NavLink to="product2.html">Smartphones</NavLink>
+                    <NavLink to="/product2">Smartphones</NavLink>
                   </li>
                   <li className="mb-3">
                     <NavLink to="product.html">Washing Machines</NavLink>
                   </li>
                   <li>
-                    <NavLink to="product2.html">Refrigerators</NavLink>
+                    <NavLink to="/product2">Refrigerators</NavLink>
                   </li>
                 </ul>
               </div>
@@ -279,7 +279,7 @@ const Footer = () => {
                   </NavLink>
                 </li>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     Data Cards
                   </NavLink>
                 </li>
@@ -291,43 +291,43 @@ const Footer = () => {
               </h5>
               <ul>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     TVs & DTH
                   </NavLink>
                 </li>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     Home Theatre Systems
                   </NavLink>
                 </li>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     Hidden Cameras & CCTVs
                   </NavLink>
                 </li>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     Refrigerators
                   </NavLink>
                 </li>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     Washing Machines
                   </NavLink>
                 </li>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     {" "}
                     Air Conditioners
                   </NavLink>
                 </li>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     Cameras
                   </NavLink>
                 </li>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     Speakers
                   </NavLink>
                 </li>
@@ -339,7 +339,7 @@ const Footer = () => {
               </h5>
               <ul>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     Headphones
                   </NavLink>
                 </li>
@@ -364,23 +364,23 @@ const Footer = () => {
                   </NavLink>
                 </li>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     External Hard Disks
                   </NavLink>
                 </li>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     {" "}
                     Mouse
                   </NavLink>
                 </li>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     Smart Watches & Fitness Bands
                   </NavLink>
                 </li>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     MicroSD Cards
                   </NavLink>
                 </li>
@@ -390,47 +390,47 @@ const Footer = () => {
               <h5 className="font-weight-bold mb-2">Appliances :</h5>
               <ul>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     Trimmers
                   </NavLink>
                 </li>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     Hair Dryers
                   </NavLink>
                 </li>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     Emergency Lights
                   </NavLink>
                 </li>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     Water Purifiers{" "}
                   </NavLink>
                 </li>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     Electric Kettles
                   </NavLink>
                 </li>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     Hair Straighteners
                   </NavLink>
                 </li>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     Induction Cooktops
                   </NavLink>
                 </li>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     Sewing Machines
                   </NavLink>
                 </li>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     {" "}
                     Geysers
                   </NavLink>
@@ -448,64 +448,64 @@ const Footer = () => {
                   </NavLink>
                 </li>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     Couple Watches
                   </NavLink>
                 </li>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     Gas Stoves
                   </NavLink>
                 </li>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     {" "}
                     Air Coolers
                   </NavLink>
                 </li>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     Air Purifiers
                   </NavLink>
                 </li>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     Headphones
                   </NavLink>
                 </li>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     {" "}
                     Headsets
                   </NavLink>
                 </li>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     Pressure Cookers
                   </NavLink>
                 </li>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     Sandwich Makers
                   </NavLink>
                 </li>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     Air Friers
                   </NavLink>
                 </li>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     Irons
                   </NavLink>
                 </li>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     LED TV
                   </NavLink>
                 </li>
                 <li className="m-sm-1">
-                  <NavLink to="product2.html" className="border-right pr-2">
+                  <NavLink to="/product2" className="border-right pr-2">
                     Sandwich Makers
                   </NavLink>
                 </li>

@@ -25,12 +25,9 @@ const Produuct2 = () => {
 				<span>T</span>v
 				<span>&</span>
 				<span>A</span>ppliances</h3>
-			//tittle heading
 			<div class="row">
-				//product left
 				<div class="agileinfo-ads-display col-lg-9">
 					<div class="wrapper">
-						//first section
 						<div class="product-sec1 px-sm-4 px-3 py-sm-5  py-3 mt-4">
 							<div class="row">
 								<div class="col-md-4 product-men">
