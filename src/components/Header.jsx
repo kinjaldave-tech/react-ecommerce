@@ -969,7 +969,7 @@ const Header = () => {
                         <NavLink className="dropdown-item" to="/single">
                           Single Product 1
                         </NavLink>
-                        <NavLink className="dropdown-item" to="single2.html">
+                        <NavLink className="dropdown-item" to="/single2">
                           Single Product 2
                         </NavLink>
                         <div className="dropdown-divider"></div>
