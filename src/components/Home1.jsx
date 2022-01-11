@@ -39,7 +39,8 @@ const Home1 = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
       </div>
-      <div className="container">
+      <div className="container" style={{
+                      position: "relative"}}>
         <div className="row">
           {data
             .filter((curElement) => {
@@ -57,7 +58,7 @@ const Home1 = () => {
                     style={{
                       position: "relative",
                       width: "300px",
-                      height: "650px",
+                      height: "650px"
                     }}
                   >
                     <img
@@ -72,8 +73,8 @@ const Home1 = () => {
                     />
                     <div className="card-body">
                       <h5 className="card-title">{curElement.title}</h5>
+                      <h6 className="card-text">{curElement.category}</h6>
                       <p className="card-text">{curElement.description}</p>
-                      <p className="card-text">{curElement.category}</p>
                       <Link to="#" className="btn btn-primary" style={{position: "absolute", bottom: "3px"}}>
                         Buy now
                       </Link>
