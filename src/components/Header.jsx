@@ -618,7 +618,7 @@ const Header = () => {
           </div>
           <div className="header-bot">
             <div className="container">
-              <div className="row header-bot_inner_wthreeinfo_header_mid">
+              <div className="row header-bot_inner_wthreeinfo_header_mid m-auto">
                 <div className="col-md-3 logo_agile">
                   <h1 className="text-center">
                     <NavLink
@@ -630,7 +630,7 @@ const Header = () => {
                         alt=" "
                         className="img-fluid"
                       />
-                      Electro Store
+                      Clothing Store
                     </NavLink>
                   </h1>
                 </div>
@@ -676,7 +676,7 @@ const Header = () => {
           <div className="navbar-inner">
             <div className="container">
               <nav className="navbar navbar-expand-lg navbar-light bg-light">
-                <div className="agileits-navi_search">
+                {/* <div className="agileits-navi_search">
                   <form action="#" method="post">
                     <select
                       id="agileinfo-nav_search"
@@ -686,24 +686,14 @@ const Header = () => {
                     >
                       <option value="">All Categories</option>
                       <option value="Televisions">Televisions</option>
-                      <option value="Headphones">Headphones</option>
-                      <option value="Computers">Computers</option>
-                      <option value="Appliances">Appliances</option>
-                      <option value="Mobiles">Mobiles</option>
-                      <option value="Fruits &amp; Vegetables">
-                        Tv &amp; Video
-                      </option>
-                      <option value="iPad & Tablets">iPad & Tablets</option>
-                      <option value="Cameras & Camcorders">
-                        Cameras & Camcorders
-                      </option>
-                      <option value="Home Audio & Theater">
-                        Home Audio & Theater
-                      </option>
+                      <option value="Electronics">Electronics</option>
+                      <option value="Mens">Mens</option>
+                      <option value="Womens">Womens</option>
+                      <option value="Jewellery">Jewellery</option>
                     </select>
                   </form>
-                </div>
-                <button
+                </div> */}
+                {/* <button
                   className="navbar-toggler"
                   type="button"
                   data-toggle="collapse"
@@ -713,7 +703,7 @@ const Header = () => {
                   aria-label="Toggle navigation"
                 >
                   <span className="navbar-toggler-icon"></span>
-                </button>
+                </button> */}
                 <div
                   className="collapse navbar-collapse"
                   id="navbarSupportedContent"

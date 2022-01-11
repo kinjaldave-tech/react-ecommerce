@@ -10,6 +10,7 @@ import Single from "./components/Single";
 import Payment from "./components/Payment";
 import Single2 from "./components/Single2";
 import Checkout from "./components/Checkout";
+import Home1 from "./components/Home1";
 //
 // import { store } from "./components/Store";
 // import { Provider } from "react-redux";
@@ -21,7 +22,8 @@ function App() {
         {/* <Provider store={store}> */}
           <Common>
             <Routes>
-              <Route path="/" exact element={<Home />} />
+            <Route path="/" exact element={<Home1 />} />
+              <Route path="/h" exact element={<Home />} />
               <Route path="/contact" exact element={<Contact />} />
               <Route path="/about" exact element={<About />} />
               <Route path="/product" exact element={<Product />} />
