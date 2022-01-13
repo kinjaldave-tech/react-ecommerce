@@ -15,8 +15,6 @@ import Single2 from "./components/Single2";
 import Checkout from "./components/Checkout";
 import Home1 from "./components/Home1";
 import reducer from "./reducers";
-import { useEffect } from "react";
-import ss from "./components/ss";
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 

@@ -133,6 +133,8 @@ const Home1 = () => {
                   return data;
                 } else if (curElement.price > minTerm) {
                   return curElement;
+                } else if (curElement.price < maxTerm) {
+                  return curElement;
                 } else if (
                   curElement.price > minTerm &&
                   curElement.price < maxTerm
