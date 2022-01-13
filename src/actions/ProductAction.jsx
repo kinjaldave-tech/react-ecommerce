@@ -1,7 +1,7 @@
 import { FETCH_PRODUCTS, FILTER_PRODUCTS_BY_PRICE } from "./Types";
 
 export const fetchProducts = () => (dispatch) => {
-  fetch("http://localhost:3000/products")
+  fetch("http://localhost:3000")
     .then((res) => res.json())
     .catch((err) =>
       fetch("Data.json")

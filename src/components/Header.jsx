@@ -618,13 +618,10 @@ const Header = () => {
           </div>
           <div className="header-bot">
             <div className="container">
-              <div className="row header-bot_inner_wthreeinfo_header_mid m-auto">
+              <div className="row header-bot_inner_wthreeinfo_header_mid">
                 <div className="col-md-3 logo_agile">
                   <h1 className="text-center">
-                    <NavLink
-                      to="/"
-                      className="font-weight-bold font-italic"
-                    >
+                    <NavLink to="/" className="font-weight-bold font-italic">
                       <img
                         src="/assets/images/logo2.png"
                         alt=" "
@@ -636,7 +633,7 @@ const Header = () => {
                 </div>
                 <div className="col-md-9 header mt-4 mb-md-0 mb-4">
                   <div className="row">
-                    <div className="col-10 agileits_search">
+                    {/* <div className="col-10 agileits_search">
                       <form className="form-inline" action="#" method="post">
                         <input
                           className="form-control mr-sm-2"
@@ -649,7 +646,7 @@ const Header = () => {
                           Search
                         </button>
                       </form>
-                    </div>
+                    </div> */}
 
                     <div className="col-2 top_nav_right text-center mt-sm-0 mt-2">
                       <div className="wthreecartaits wthreecartaits2 cart cart box_1">
@@ -753,9 +750,7 @@ const Header = () => {
                                   </NavLink>
                                 </li>
                                 <li>
-                                  <NavLink to="/product">
-                                    Power Banks
-                                  </NavLink>
+                                  <NavLink to="/product">Power Banks</NavLink>
                                 </li>
                                 <li>
                                   <NavLink to="/product">
@@ -771,9 +766,7 @@ const Header = () => {
                                   </NavLink>
                                 </li>
                                 <li>
-                                  <NavLink to="/product">
-                                    Smart Home
-                                  </NavLink>
+                                  <NavLink to="/product">Smart Home</NavLink>
                                 </li>
                               </ul>
                             </div>
@@ -832,9 +825,7 @@ const Header = () => {
                             <div className="col-sm-6 multi-gd-img">
                               <ul className="multi-column-dropdown">
                                 <li>
-                                  <NavLink to="/product2">
-                                    Televisions
-                                  </NavLink>
+                                  <NavLink to="/product2">Televisions</NavLink>
                                 </li>
                                 <li>
                                   <NavLink to="/product2">
@@ -842,9 +833,7 @@ const Header = () => {
                                   </NavLink>
                                 </li>
                                 <li>
-                                  <NavLink to="/product2">
-                                    Headphones
-                                  </NavLink>
+                                  <NavLink to="/product2">Headphones</NavLink>
                                 </li>
                                 <li>
                                   <NavLink to="/product2">Speakers</NavLink>
@@ -863,9 +852,7 @@ const Header = () => {
                                   <NavLink to="/product2">Cameras</NavLink>
                                 </li>
                                 <li>
-                                  <NavLink to="/product2">
-                                    DSLR Cameras
-                                  </NavLink>
+                                  <NavLink to="/product2">DSLR Cameras</NavLink>
                                 </li>
                                 <li>
                                   <NavLink to="/product2">
