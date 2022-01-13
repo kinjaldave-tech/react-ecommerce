@@ -50,23 +50,23 @@ export const dropProduct = (dropTerm) => async (dispatch) => {
   }
 };
 
-export const priceProduct = (priceTerm) => async (dispatch) => {
-  // dispatch({ type: "CLEAR" });
-  try {
-    const response = allProducts.filter((curElement) => {
-      if (priceTerm >= priceTerm[0]) {
-        curElement.price?.includes(priceTerm);
-      } else if (priceTerm <= priceTerm[1]) {
-        curElement.price?.includes(priceTerm);
-      } else {
-        return allProducts;
-      }
-    });
-    dispatch({ type: "PRICE", payload: response });
-  } catch (error) {
-    dispatch({ type: "ERROR", payload: "" });
-  }
-};
+// export const priceProduct = (priceTerm) => async (dispatch) => {
+//   // dispatch({ type: "CLEAR" });
+//   try {
+//     const response = allProducts.filter((curElement) => {
+//       if (priceTerm >= priceTerm[0]) {
+//         curElement.price?.includes(priceTerm);
+//       } else if (priceTerm <= priceTerm[1]) {
+//         curElement.price?.includes(priceTerm);
+//       } else {
+//         return allProducts;
+//       }
+//     });
+//     dispatch({ type: "PRICE", payload: response });
+//   } catch (error) {
+//     dispatch({ type: "ERROR", payload: "" });
+//   }
+// };
 
 // export const priceProduct = (priceTerm) => async (dispatch) => {
 //   // dispatch({ type: "CLEAR" });
